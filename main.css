@@ -1,0 +1,480 @@
+@charset "utf-8";
+
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;  
+}
+
+/* ---------- GENERAL ---------- */
+
+body,html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+body {
+	
+	color: #000;
+	font: 63.2% "Trebuchet MS", sans-serif;
+	line-height: 1.1em;
+	margin: 0px auto;
+	position: relative;
+}
+
+input {
+	border: none;
+	border-bottom: 1px black dotted;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	-webkit-appearance: none;
+	background-color: transparent;
+	outline:0;
+}
+
+.logo{
+	position: absolute;
+	margin-top: 5px;
+	width: 23%;
+	height:auto; 
+	z-index: 100;
+	margin-bottom: 3%;
+}
+
+.in{
+	position: absolute;
+	text-align: right;
+	width:10%;
+	font-size: 1.5em;
+	height:auto; 
+	z-index: 100;
+	margin-top: 1%;
+	font-weight: bold;
+	margin-left: 80%;
+}
+
+
+
+fieldset p{
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 0.6em;
+	font-weight:500;
+	
+	color: black;
+
+}
+
+ fieldset input[type="text"],fieldset input[type="password"] {
+	background-color: transparent;
+	color: black;
+	padding: 0px 10px;
+	line-height: 0.6em;
+	width: 195px;
+	border: none;
+	outline:0;
+	border-bottom: 1px black dotted;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.age{
+	line-height: 0.1;
+}
+
+.remodal input[type="text"],.remodal input[type="password"] {
+	background-color: transparent;
+	color: black;
+	padding: 0px 10px;
+	line-height: 0.6em;
+	width: 195px;
+	border: none;
+	outline:0;
+	border-bottom: 1px black dotted;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+
+select{
+	background-color: transparent;
+	color:black;
+	padding: 0px 5px;
+	border: none;
+	outline:0;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	
+}
+
+ fieldset input[type="date"]{
+
+	font: 100% "Trebuchet MS", sans-serif;
+	width: 190px;
+	padding: 0px 5px;
+	font-weight: normal;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+@-moz-document url-prefix() {
+    fieldset input[type="date"]{
+
+	font: 100% "Trebuchet MS", sans-serif;
+	width: 170px;
+	padding: 2px 5px;
+	font-weight: normal;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+}
+
+fieldset input[type="submit"] {
+	background-color: #33cc77;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 10px;
+	width: auto;
+	border: none;
+	outline:0;
+	cursor: pointer;
+}
+
+ fieldset input[type="submit"]:hover {
+	background-color: #28ad63;
+}
+
+#deco{
+
+	background-color: #33cc77;
+	display: block;
+	color: #fff;
+	width: 170px;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 25px auto 0;
+	height: 50px;
+	padding-top: 18px;
+}
+
+#deco:hover {
+	background-color: #28ad63;
+}
+
+#deco1{
+
+	background-color: #33cc77;
+	display: block;
+	color: #fff;
+	width: 170px;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 25px auto 0;
+	height: 50px;
+	padding-top: 18px;
+}
+
+#deco1:hover {
+	background-color: #28ad63;
+}
+
+
+
+ td, tr{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 15px;
+	height: 40px;
+	margin: 5px auto;
+	margin-top: 50px;
+	line-height: 1.2em;
+}
+
+th{
+	padding: 5px;
+	height: 40px;
+	margin: 0px auto;
+	border-right: 2px solid transparent;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
+	line-height: 1em;
+}
+
+.oh{
+	width: 10%;
+	border-right: 2px solid transparent;
+}
+ 
+.ohh{
+	width: 15%;
+	padding: 7px ;
+	font-size: 0.8em;
+}
+
+.price{
+	width: 10%;
+	font-size: 0.8em;
+	
+}
+
+.board{
+	width: 15%;
+	font-size: 0.8em;
+	
+}
+
+.value{
+	width: 25%;
+	font-size: 0.8em;
+	
+}
+
+.alternate{
+	width:25%;
+	font-size: 0.8em;
+	
+}
+
+#bigg{
+
+	font-size: 2.1em;
+	margin-bottom: 6%;
+}
+
+#biggg{
+
+	font-size: 2.1em;
+	margin-bottom: 1.8%;
+}
+
+input[type="radio"]
+{
+ -webkit-appearance: radio; 
+}
+
+input[type="checkbox"]
+{
+ -webkit-appearance: checkbox; 
+}
+
+.caro{
+	position: absolute;
+	width: 100%;
+	max-width: 1920px;
+	max-height: 1080px;
+	height: 100%;
+	top: 0%;
+	margin: 0px auto;
+    
+}
+
+.tabs{
+	z-index: 10000;
+}
+
+#car1,#car2,#car1,#car3,#car4,#car5,#car6,#car7,#car8,#car9,#car10{
+	color: #eee;
+	font-size: 6em;
+	text-align: right;
+	min-width: 40%;
+	max-width: 41%;
+	height: auto;
+	font-weight: bolder;
+	line-height: 1.5;
+	margin-left: 35%;
+}
+
+#car3,#car4,#car9{
+	
+	text-shadow: 2px 1px 3px rgba(0, 0, 0, .9);
+}
+
+#car4{
+	margin-bottom: 5%;
+}
+
+#car5{
+	margin-bottom: 3%;
+}
+
+#car6{
+	margin-bottom: 10%;
+}
+
+#car7{
+	margin-bottom: 8%;
+}
+
+#car8{
+	margin-bottom: 10%;
+}
+
+#car10{
+	margin-bottom: 13%;
+}
+
+#car3{
+	margin-bottom: 3%;
+}
+
+#car9{
+	margin-bottom: 3%;
+}
+
+.fly{
+	word-spacing: 30px;
+}
+
+.rad{
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.flys{
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 0.6em;
+	font-weight: 500;
+	color: black;
+	text-align: center;
+	word-spacing: .1em;
+}
+
+.map{
+	width: 50%;
+
+}
+
+.rad{
+	padding-top: 10px;
+}
+
+.cont{
+	line-height: 1.5em;
+	margin-top: 20px;
+}
+
+.return{
+	display: none;
+}
+
+.cont1{
+	display: none;
+}
+
+.cont1{
+	margin-top: 20px;
+}
+fieldset .cont1 input[type="text"]{
+	width: 150px;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: black;
+	padding: 0px 5px;
+
+}
+
+fieldset .cont1 input[type="date"]{
+	width: 157px;
+	font-size: 1em;
+	font-weight: 600;
+	color: black;
+
+}
+
+fieldset .cont1{
+	line-height: 2.2em;
+}
+
+@-moz-document url-prefix() {
+	fieldset .cont1{
+	line-height: 2em;
+}
+    
+}
+
+.plan{
+	font-size:0.6em;
+	color: black;
+	font-weight: 500;
+	line-height: 3.1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.pla{
+	font-size:0.975em;
+	color: black;
+	font-weight: 500;
+}
+
+.places{
+	display: none;
+	line-height: 2em;
+}
+
+.suggestion{
+	display: none;
+	line-height: 2em;
+}
+
+ .plan input[type="text"]{
+	padding: 0px 5px;
+}
+
+#deco2{
+
+	background-color: #33cc77;
+	display: block;
+	color: #fff;
+	width: 170px;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 25px auto 0;
+	height: 50px;
+	padding-top: 18px;
+}
+
+#deco2:hover {
+	background-color: #28ad63;
+}
+
+
+/*===================  media query============= */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    
+   
+	body{
+		margin-left: 13%;
+	}
+
+    .container{
+    	margin-left: 7%;
+    }
+
+    section{
+    	margin-top: 12%;
+    }
+
+
+    .in{
+	
+	width: 65%;
+	}
+}

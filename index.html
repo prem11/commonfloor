@@ -1,0 +1,523 @@
+<!doctype html> 
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>AIRBOURNE</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,800,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="jquery.remodal.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/tabs.css" /> 
+	<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+  	<script src="js/modernizr.custom.js"></script>
+  	<link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>   
+	
+</head>
+<body >
+
+	
+
+<div class="container">
+	<img class="logo" src="img/logo.svg"/>
+	<p class="in"><a id="login" href="#modallog" style="text-decoration: none">Log-in</a> | <a id="regi" href="#modalreg" style="text-decoration: none">Register</a></p> 
+
+	
+  <section>
+	<div class="tabs tabs-style-tzoid">
+	  <nav>
+		<ul>
+		 <li><a href="#section-tzoid-1" style="text-decoration: none"><span>ECONOMY</span></a></li>
+		 <li><a href="#section-tzoid-2" style="text-decoration: none"><span>BUSINESS CLASS</span></a></li>
+		 <li><a href="#section-tzoid-3" style="text-decoration: none"><span>TRIP PLANNER</span></a></li>
+		</ul>
+	  </nav>
+
+	<div class="content-wrap"><section id="section-tzoid-1">
+      <form action="javascript:void(0);" method="POST">
+		<fieldset>
+		 <div class="flys"><form action="">
+			<label>One-way <input class="rad" type="radio" name="flyType" value="one"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+			<label>Round-trip <input class="rad" type="radio" name="flyType" value="round"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+			<label>Multi-city <input class="rad" type="radio" name="flyType" value="multy"></label></form></div>
+
+			 <div class="cont">
+				<p>I want to board from <input type="text" id="email" autocomplete="off">&nbsp on <input type="date" name="date"
+				 id="date"  value="dd-mm-yyyy" autocomplete="off">,</p>
+
+				 <p>Timing is &nbsp&nbsp&nbsp&nbsp <label><input class="radd" type="radio" name="time1" value="twelveb">&nbspbefore 12 </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				 <label><input class="radd" type="radio" name="time1" value="twelve">&nbsp&nbspafter 12 </label> </p>
+				 <p>and reach <input type="text" id="place" autocomplete="off">.</p> 
+
+				 <p class="return box">I will return on <input type="date" name="date" id="date1" value="dd-mm-yyyy" autocomplete="off">.</p>
+
+				<p>No of passengers (including me): </p>
+				 <p class="age">12+ years:&nbsp <select autocomplete="off">
+					<option value="0" selected>0</option>
+					<option value="1" >1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="2">5</option>
+				 </select> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+				under 12:&nbsp <select autocomplete="off">
+					<option value="0" selected>0</option>
+					<option value="1" >1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="2">5</option>
+				</select>	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		
+
+				under 2:&nbsp <select autocomplete="off">
+					<option value="0" selected>0</option>
+					<option value="1" >1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="2">5</option>
+				</select></p>
+
+            </div>
+
+
+            <div class="cont1">
+                 <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+                 	<input class="dadjust" type="date" id="date7" autocomplete="off" > </p>
+
+                 <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+                 	<input class="dadjust" type="date" id="date8" autocomplete="off" > </p>
+
+                 <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+                 	<input class="dadjust" type="date" id="date9" autocomplete="off" > </p>
+
+                 <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+                 	<input class="dadjust" type="date" id="date10" autocomplete="off" > </p>
+
+                 <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+                 	<input class="dadjust" type="date" id="date11" autocomplete="off" > </p>
+             </div>    
+                 </br> 
+                 </br>  
+
+                <p>My priority is for &nbsp&nbsp&nbsp&nbsp <label><input class="prior" type="radio" name="priority"
+                 value="priority1">&nbspPricing </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                 &nbsp&nbsp&nbsp&nbsp
+				 <label><input class="radd" type="radio" name="priority" value="priority2">&nbsp&nbspTiming </label> </p> </p>      
+					
+				 <a id="deco" href="#modal" style="text-decoration: none">Find my flight</a>
+	       </fieldset>
+
+	     </form>
+     </section>
+
+     <section id="section-tzoid-2">
+        <form action="javascript:void(0);" method="POST">
+
+		  <fieldset>
+             <div class="flys"><form action="">
+             <label>One-way <input class="rad" type="radio" name="flyType" value="one"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+             <label>Round-trip <input class="rad" type="radio" name="flyType" value="round"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+              <label>Multi-city <input class="rad" type="radio" name="flyType" value="multy"></label></form></div>
+				
+				<div class="cont">
+			       <p>I want to board from <input type="text" id="email" autocomplete="off">&nbsp on <input type="date" name="date" id="date"  value="dd-mm-yyyy" autocomplete="off"></p>
+								
+				   <p>Timing is &nbsp&nbsp&nbsp&nbsp <label><input class="radd2" type="radio" name="time12" value="twelveb2">&nbspbefore 12 </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				   <label><input class="radd2" type="radio" name="time12" value="twelve2">&nbsp&nbspafter 12 </label> </p>
+
+				   <p>and reach <input type="text" id="password" autocomplete="off">.</p> 
+				   <p class="return box" >I will return on <input type="date" name="date" id="date1" value="dd-mm-yyyy" autocomplete="off">.</p>
+
+				   <p>No of passengers (including me): </p>
+				   <p class="age">12+ years:&nbsp <select autocomplete="off">
+						<option value="0" selected>0</option>
+						<option value="1" >1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+				  </select> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+				 under 12:&nbsp <select autocomplete="off">
+						<option value="0" selected>0</option>
+						<option value="1" >1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+				</select>	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		
+
+				under 2:&nbsp <select autocomplete="off">
+						<option value="0" selected>0</option>
+						<option value="1" >1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+				</select></p>
+
+          </div>
+
+          <div class="cont1">
+               <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+               	<input class="dadjust" type="date" id="date2" autocomplete="off" > </p>
+
+               <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+               	<input class="dadjust" type="date" id="date3" autocomplete="off" > </p>
+
+               <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date
+               	<input class="dadjust" type="date" id="date4" autocomplete="off" > </p>
+
+               <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+               	<input class="dadjust" type="date" id="date5" autocomplete="off" > </p>
+
+               <p>From <input class="asjust" type="text" autocomplete="off"> &nbsp To <input type="text" autocomplete="off"> Date 
+               	<input class="dadjust" type="date" id="date6" autocomplete="off" > </p>
+           </div>
+             </br>
+             </br>
+
+             <p>My priority is for &nbsp&nbsp&nbsp&nbsp <label><input class="prior2" type="radio" name="priority2" value="priority12">&nbspPricing </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			
+			 <label><input class="radd" type="radio" name="priority2" value="priority22">&nbsp&nbspTiming </label> </p> </p> 
+
+		    <a id="deco1" href="#modal" STYLE="text-decoration: none">Find my flight</a>
+							
+	       </fieldset>
+
+	    </form>
+
+     </section>
+
+	
+	 <section id="section-tzoid-3">
+       <fieldset>
+         <div class="plan">
+            <p class="pla">I want to visit <input id="visit" type="text" autocomplete="off">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp on <input type="date" id="davisit" value="dd-mm-yyyy" autocomplete="off"></br>
+                    
+            <input type="radio" name="planner" value="self"> I know my map&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label class="help"><input type="radio" name="planner" value="helper"> I'm quiet blank, suggestion's please .</label></br>
+
+            <div class="places">
+              Place 1 <input class="places" type="text" autocomplete="off"></br>
+              Place 2 <input class="places" type="text" autocomplete="off"></br>
+              Place 3 <input class="places" type="text" autocomplete="off"></br>
+              Place 4 <input class="places" type="text" autocomplete="off"></br>
+            </div>  
+
+            <div class="suggestion">
+              Place 1 &nbsp&nbsp<input type="checkbox" name="suggest" value="sug1"></br>
+              Place 2 &nbsp&nbsp<input type="checkbox" name="suggest" value="sug2"></br>
+              Place 3 &nbsp&nbsp<input type="checkbox" name="suggest" value="sug3"></br>
+              Place 4 &nbsp&nbsp<input type="checkbox" name="suggest" value="sug4"></br>
+            </div>   
+
+              I want to travel by&nbsp&nbsp <input type="radio" name="trans"> CAR&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="trans"> BUS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="trans"> TRAIN&nbsp&nbsp&nbsp  between places.</br>
+
+			  I want to stay at a &nbsp&nbsp&nbsp<input type="radio" name="hotel">BUDGET&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="hotel">3 star&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="hotel">4 star&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="hotel">5 star &nbsp&nbsp  Hotel.</br>
+
+              And, I have a total of <select autocomplete="off">
+                  <option value="0" selected>0</option>
+                  <option value="1" >1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> days to stay.</p>
+             </div>
+           <a id="deco2" href="#modal1" STYLE="text-decoration: none">Find my flight</a>
+          </fieldset>
+        </section>
+                        
+      </div><!-- /content -->
+    </div><!-- /tabs -->
+  </section>
+</div><!-- /container -->
+
+
+<div class="remodal" data-remodal-id="modal">
+	<p id="bigg">YOUR FLIGHT CHOICES</p>
+	<table  width="100%" >
+		
+			<th >
+				BOARDING
+			</th >
+
+			<th >
+				LANDING
+			</th>
+
+			<th>
+				VALUE SERVICES
+			</th>
+
+
+			<th>
+				BETTER ALTERNATIVE
+			</th>
+				
+
+			<th>
+				PRICE
+			</th>
+
+			<th>
+				I LIKE THIS
+			</th>
+		
+		<tr>
+			<td class="board">
+				PLACE -- TIME
+			</td >
+
+			<td class="ohh">
+				PLACE -- TIME
+			</td>
+
+			<td class="value">
+				10% discount if baggage is less then 15kg.
+			</td>
+
+			<td class="alternate">
+				-
+			</td>
+
+			<td class="price">
+				PRICING
+			</td>
+
+			<td class="oh">
+				<form action="">
+						<input class="myradio" type="radio" name="choice">
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="board"> 
+				PLACE -- TIME
+			</td >
+
+			<td class="ohh">
+				PLACE -- TIME
+			</td>
+
+			<td class="value">
+				-
+			</td>
+
+			<td class="alternate">
+				Same route flight is cheaper on the following day.
+			</td>
+
+			<td class="price">
+				PRICING
+			</td>
+			<td class="oh">
+				
+						<input class="myradio" type="radio" name="choice">
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="board">
+				PLACE -- TIME
+			</td >
+
+			<td class="ohh">
+				PLACE -- TIME
+			</td>
+
+			<td class="value">
+				-
+			</td>
+
+			<td class="alternate">
+				Same route flight is cheaper at 6pm.
+			</td>
+
+			<td class="price">
+				PRICING
+			</td>
+
+			<td class="oh">
+				<input class="myradio" type="radio" name="choice" >
+		   </form>
+		  </td>
+	     </tr>
+
+      </table>
+      </br></br>	</br>
+    <a class="remodal-cancel" href="#"  style="text-decoration: none">Cancel</a>
+    <a class="remodal-confirm" href="#"  style="text-decoration: none">OK</a>
+</div>
+
+
+
+<div class="remodal" data-remodal-id="modal1">
+	<p id="bigg">YOUR TRIP PLAN</p>
+	<img class="map" src="img/map.jpg"/>
+ </br> </br>
+	<p>DAY n : PLACE n</p></br>
+	<p>DAY n : PLACE n</p></br>
+	<p>DAY n : PLACE n</p></br>
+	<p>DAY n : PLACE n</p></br>
+
+</br>
+	<p>STAY AT:</p></br>
+			<label>HOTEL ABC <input class="rad" type="radio" name="hotelchoice" value="one"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<label>HOTEL DEF <input class="rad" type="radio" name="hotelchoice" value="one"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<label>HOTEL XXX <input class="rad" type="radio" name="hotelchoice" value="one"></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		
+	</br></br><p>TOTAL COST: COST</p></br>
+    
+    <a class="remodal-cancel" href="#"  style="text-decoration: none">Cancel</a>
+    <a class="remodal-confirm" href="#"  style="text-decoration: none">OK</a>
+</div>
+
+<div class="remodal" data-remodal-id="modallog">
+	<p id="biggg">Log-in</p></br></br></br>
+	
+	Username : <input class="namee" type="text" autocomplete="off"></br></br></br>
+	Password : <input class="pass" type="password" autocomplete="off"></br></br></br></br>
+   
+    <a class="remodal-cancel" href="#"  style="text-decoration: none">Cancel</a>
+    <a class="remodal-confirm" href="#"  style="text-decoration: none">OK</a>
+</div>
+
+
+<div class="remodal" data-remodal-id="modalreg">
+	<p id="bigg">Registration</p></br></br></br>
+	Username : <input class="namee" type="text" autocomplete="off"></br></br></br>
+	Password : <input class="pass" type="password" autocomplete="off"></br></br></br>
+	Re-type password : <input class="namee" type="password" autocomplete="off"></br></br></br>
+	Mail-id : <input class="pass" type="mail" autocomplete="off"></br></br></br>
+	Age : <input class="namee" type="text" autocomplete="off"></br></br></br>
+	Address : <input class="pass" type="text" autocomplete="off"></br></br></br>
+    <a class="remodal-cancel" href="#"  style="text-decoration: none">Cancel</a>
+    <a class="remodal-confirm" href="#"  style="text-decoration: none">OK</a>
+</div>
+
+
+ <div class="caro" id="car">
+                 
+       <div class="container-fluid">
+	       <div class="carousel slide" id="artca">
+		       <div class="carousel-inner">
+			       <div class="item active"><img src="img/1.jpg">
+			       		<div class="carousel-caption" id="car1">There is a whole new world to be explored.</div>
+			       </div>
+			       <div class="item"><img src="img/2.jpg">
+			       		<div class="carousel-caption" id="car2">There is always a new road to take.</div>
+			       </div>
+			       <div class="item"><img src="img/3.jpg">
+			       		<div class="carousel-caption" id="car3">AIRBOURNE helps you find the best flight for your travels.</div>
+			       </div>
+			       <div class="item "><img src="img/4.jpg">
+			       		<div class="carousel-caption" id="car4">Take a break from work.</div>
+			       </div>
+			       <div class="item "><img src="img/5.jpg">
+			       		<div class="carousel-caption" id="car5">Pack your bags and go out there.</div>
+			       </div>
+			       <div class="item "><img src="img/6.jpg">
+			       		<div class="carousel-caption" id="car6">Let it be a ADVENTURE trip.</div>
+			       </div>
+			       <div class="item "><img src="img/7.jpg">
+			       		<div class="carousel-caption" id="car7">or a ROMANTIC trip.</div>
+			       </div>
+			       <div class="item "><img src="img/8.jpg">
+			       		<div class="carousel-caption" id="car8">or the usual BUSINESS trip.</div>
+			       </div>
+			       <div class="item "><img src="img/9.jpg">
+			       		<div class="carousel-caption" id="car9">At AIRBORNE you can find the best and cheapest flights.Always.</div>
+			       </div>
+			       <div class="item "><img src="img/10.jpg">
+			       		<div class="carousel-caption" id="car10">Explore the world with us.</div>
+			       </div>
+		       </div>
+	       </div>
+       </div>
+    </div>
+
+	  <script src="jquery.js"></script>
+	    <script src="jquery-ui.js"></script>
+		<script src="jquery-ui.js"></script>
+		
+    <script>
+       (function() {
+          var elem = document.createElement('input');
+          elem.setAttribute('type', 'date');
+     
+          if ( elem.type === 'text' ) {
+             $('#date , #date1,#date2,#date3,#date4,#date5,#date6,#date7,#date8,#date9,#date10,#davisit,#date11').datepicker({
+             dateFormat: 'dd-mm-yy'
+
+          }); 
+          }
+       })();
+ 
+</script>
+
+<script src="jquery.remodal.js"></script>
+
+<!-- Events -->
+<script>
+    $(document).on("open", ".remodal", function () {
+        console.log("open");
+    });
+
+    $(document).on("opened", ".remodal", function () {
+        console.log("opened");
+    });
+
+    $(document).on("close", ".remodal", function (e) {
+        console.log('close' + (e.reason ? ", reason: " + e.reason : ''));
+    });
+
+    $(document).on("closed", ".remodal", function (e) {
+        console.log('closed' + (e.reason ? ', reason: ' + e.reason : ''));
+    });
+
+    $(document).on("confirm", ".remodal", function () {
+        console.log("confirm");
+    });
+
+    $(document).on("cancel", ".remodal", function () {
+        console.log("cancel");
+    });
+
+    var inst = $("[data-remodal-id=modal2]").remodal(); 
+</script>
+
+<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+    	$("#artca").carousel({
+    			interval:6000,
+    			cycle:true
+
+    	});
+
+    </script>
+
+</body>
+</html>
